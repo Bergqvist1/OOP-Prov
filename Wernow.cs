@@ -7,15 +7,12 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace OOP_Prov
 {
-
-    public class Fiende: Hjälte
+    
+    public class Wernow: Fiende
     {
-        public Fiende(int hp, string typ, int Minstskada, int MestSkada): base(hp, typ, Minstskada, MestSkada){}
-    }    
-
-
-
-
-
-
+        public Wernow(): base(60, "Wernow", 4,15){}
+    }
 }
+
+
+

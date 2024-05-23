@@ -7,15 +7,8 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace OOP_Prov
 {
-
-    public class Fiende: Hjälte
+    public class Ork: Fiende
     {
-        public Fiende(int hp, string typ, int Minstskada, int MestSkada): base(hp, typ, Minstskada, MestSkada){}
-    }    
-
-
-
-
-
-
+        public Ork(): base(37, "Ork", 1,11){} // Sätter Orkens info
+    }
 }

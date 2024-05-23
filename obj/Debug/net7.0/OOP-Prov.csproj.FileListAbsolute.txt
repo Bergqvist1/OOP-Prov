@@ -1,0 +1,15 @@
+E:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.GeneratedMSBuildEditorConfig.editorconfig
+E:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.AssemblyInfoInputs.cache
+E:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.AssemblyInfo.cs
+E:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.csproj.CoreCompileInputs.cache
+E:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.sourcelink.json
+e:\dkk ui\OOPxProv\bin\Debug\net7.0\OOP-Prov.exe
+E:\dkk ui\OOPxProv\bin\Debug\net7.0\OOP-Prov.deps.json
+E:\dkk ui\OOPxProv\bin\Debug\net7.0\OOP-Prov.runtimeconfig.json
+e:\dkk ui\OOPxProv\bin\Debug\net7.0\OOP-Prov.dll
+e:\dkk ui\OOPxProv\bin\Debug\net7.0\OOP-Prov.pdb
+e:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.dll
+e:\dkk ui\OOPxProv\obj\Debug\net7.0\refint\OOP-Prov.dll
+e:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.pdb
+E:\dkk ui\OOPxProv\obj\Debug\net7.0\OOP-Prov.genruntimeconfig.cache
+E:\dkk ui\OOPxProv\obj\Debug\net7.0\ref\OOP-Prov.dll
