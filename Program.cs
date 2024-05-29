@@ -80,21 +80,21 @@ class Program
         
         } 
 
-        if (spelare.HP > 0 && fiender.Count <= 1)
+        if (spelare.HP > 0 && fiender[1].HP < 0) // Om spelaren är vid liv och fiender är döda händer följande
         {
-            Console.WriteLine("Du har besegrat alla dina fiender!");
+            Console.WriteLine("Du har besegrat alla dina fiender!"); // Skriver ut att du har besegrat alla fiender
         }
 
-        Console.WriteLine("Dina poäng är" + poäng); // skriver ut poäng
-        SparaPoäng(poäng); // spara 
+        Console.WriteLine("Dina poäng är" + poäng); // skriver ut spelarens poäng
+        SparaPoäng(poäng); // sparar seplarens poäng 
 
     }
 
 
-    static void SparaPoäng(int poäng)
+    static void SparaPoäng(int poäng) // Gör så att man lägger upp poängen i en text fil 
     {
         StreamWriter sw = new StreamWriter("SparaPoäng.txt", true); // Väljer den fil som poängen ska sparas i
-        sw.WriteLine("Ditt poäng är:" + poäng); // Skriver ut antalet poäng du har fått 
+        sw.WriteLine("Ditt poäng är:" + poäng); // Skriver ut antalet poäng spelaren har fått 
         sw.Close(); // stänger textfilen
     }
         
