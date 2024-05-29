@@ -26,7 +26,7 @@ namespace OOP_Prov
         {
            HP = hp; // sätter själva hp:t på Hjälten
            Typ = typ; // sätter hjältens typ
-           MinstSkada = Minstskada; // sätter hjältens insta skada som den kan göra
+           MinstSkada = Minstskada; // sätter hjältens minsta skada som den kan göra
            MestSkada = Mestskada; // sätter hjältens mest skada som den kan göra
         }
 
