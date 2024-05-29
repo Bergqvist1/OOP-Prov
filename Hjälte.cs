@@ -15,9 +15,9 @@ namespace OOP_Prov
 
      public string Typ{get; set;} // hjältens typ
 
-     public int MinstSkada{get; set;} //  hjältens minsta skada som den kan göra
+     public int MinstSkada{get; set;} //  Hämtar hjältens minsta skada som den kan göra
 
-     public int MestSkada{get; set;} //  hjältens mest skada som den kan göra
+     public int MestSkada{get; set;} //  Hämtar hjältens mest skada som den kan göra
 
      Random slump = new Random(); // Skapar en Random som heter slump för att senare kunna användas vid Skada 
 
