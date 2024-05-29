@@ -11,7 +11,7 @@ namespace OOP_Prov
 
     public class Hjälte // namn på klass
     {
-     public int HP {get; set;} // hjältens namn
+     public int HP {get; set;} // hjältens hp
 
      public string Typ{get; set;} // hjältens typ
 
