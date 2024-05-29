@@ -22,7 +22,7 @@ namespace OOP_Prov
      Random slump = new Random(); // Skapar en Random som heter slump för att senare kunna användas vid Skada 
 
 
-       public Hjälte(int hp, string typ, int Minstskada, int Mestskada) // konstruktor för att initiera hjälten o
+       public Hjälte(int hp, string typ, int Minstskada, int Mestskada) // konstruktor för att initiera hjälten 
         {
            HP = hp; // sätter själva hp:t på Hjälten
            Typ = typ; // sätter hjältens typ
