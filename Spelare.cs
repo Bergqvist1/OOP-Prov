@@ -9,6 +9,6 @@ namespace OOP_Prov
 {
     public class Spelare: Hjälte // klass för spelaren 
     {
-       public Spelare(int hp, string typ, int Minstskada, int MestSkada): base(hp, typ, Minstskada, MestSkada){} // sätter spelarens info utifrån Hjälte klassen
+       public Spelare(int hp, string typ, int Minstskada, int MestSkada): base(hp, typ, Minstskada, MestSkada){} // sätter spelarens info utifrån Hjälte klassen. Alltså spelarens hp, typ, minst skada, mest skada
     }
 }
