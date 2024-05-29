@@ -24,9 +24,9 @@ class Program
         }
 
         Console.Write(fiender.Count); // Skriver ut antalet fiender som finns i listan
-        int poäng = 0; // sätter att poängen är = 0 i början 
+        int poäng = 0; // sätter att poängen är = 0 i början av spelet 
 
-        bool SpelPÅ = true; // Bool variabel för att se så att spelet är igång 
+        bool SpelPÅ = true; // Bool variabel för att se så att spelet är igång. Start värde på true.
 
         while (spelare.HP > 0 && fiender[1].HP > 0 && SpelPÅ) // Så länge Spelaren och fiende 1 lever & bool är på true gäller själva loopen
         {
